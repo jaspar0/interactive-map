@@ -1,0 +1,17 @@
+{
+    "nodes": [
+        { "id": "index", "type": "dot", "name": "About Me", "url": "/about" },
+        { "id": "initiatives", "type": "circle", "name": "Initiatives", "url": "/initiatives" },
+        { "id": "artifacts", "type": "triangle", "name": "Artifacts", "url": "/artifacts" },
+        { "id": "experiments", "type": "square", "name": "Experiments", "url": "/experiments" },
+        { "id": "resonance", "type": "pentagon", "name": "Resonance", "url": "/resonance" },
+        { "id": "manifestations", "type": "hexagon", "name": "Manifestations", "url": "/manifestations" }
+    ],
+    "links": [
+        { "source": "index", "target": "initiatives" },
+        { "source": "index", "target": "artifacts" },
+        { "source": "index", "target": "experiments" },
+        { "source": "index", "target": "resonance" },
+        { "source": "index", "target": "manifestations" }
+    ]
+}
